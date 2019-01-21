@@ -41,7 +41,7 @@ public class Operaciones {
     }
     /**
 	 * Este metodo permite calcular la media de una lista
-         * @param LinkedList<Double> 
+         * @param e// este es de tipo LinkedList
 	 * @return double
 	 */
     public Double media(LinkedList<Double> e){
@@ -64,7 +64,7 @@ public class Operaciones {
     }
     /**
 	 * Este metodo permite calcular la Desviacion de una lista
-         * @param LinkedList<Double> 
+         * @param e// este es de tipo LinkedList
 	 * @return double
 	 */
     public Double desviacion(LinkedList<Double> e){
