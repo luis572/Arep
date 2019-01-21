@@ -31,6 +31,10 @@ public class Operaciones {
     public  Operaciones(String prueba) throws IOException, Exception{
         try {
             leerDatos=new Lectura(prueba);
+            System.out.println(media(leerDatos.getColumna1()));
+            System.out.println(desviacion(leerDatos.getColumna1()));
+            System.out.println(media(leerDatos.getColumna2()));
+            System.out.println(desviacion(leerDatos.getColumna2()));
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Operaciones.class.getName()).log(Level.SEVERE, null, ex);
         }
