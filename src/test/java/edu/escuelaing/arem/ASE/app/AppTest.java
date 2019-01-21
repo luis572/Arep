@@ -23,6 +23,9 @@ public class AppTest
     {
         super( testName );
     }
+    /**
+	 * Este test se realiza para la media y  desviacion   de la columna uno
+    */
     @org.junit.Test
     public void testMediaYDesviacion1() throws Exception {
        Operaciones test1= new Operaciones("prueba.txt");
@@ -31,6 +34,9 @@ public class AppTest
        System.out.println(test1.desviacion(test1.getLeerDatos().getColumna1()));
        assertEquals(test1.desviacion(test1.getLeerDatos().getColumna1()),572.03);
     }
+    /**
+	 * Este test se realiza para la media y  desviacion   de la columna dos
+    */
     public void testMediaYDesviacion2() throws Exception {
        Operaciones test1= new Operaciones("prueba.txt");
        System.out.println(test1.media(test1.getLeerDatos().getColumna2()));

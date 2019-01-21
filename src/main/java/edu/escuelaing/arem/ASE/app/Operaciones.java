@@ -17,13 +17,15 @@ import java.util.logging.Logger;
 import java.text.DecimalFormat;
 /**
  *
- * @author 2137497
+ * @author Luis Pizza
  */
 public class Operaciones {
     public Lectura leerDatos; // Atributo que se encarga de realizar la respectiva lectura de los datos
-    /**
+    /** 
+         * Esta clase maneja los metodos para calcular la media y la desviacion 
 	 * @param prueba//el nombre del archivo de prueba a leer 
 	 * @throws Exception// las Exepciones para filereader y BufferedReader
+         *  @throws IOException// las Exepciones para filereader y BufferedReader
     */
     
     public  Operaciones(String prueba) throws IOException, Exception{

@@ -20,7 +20,7 @@ import java.nio.file.*;
 
 /**
  *
- * @author Luis
+ * @author Luis Pizza
  */
 public  class Lectura {
     public static LinkedList<Double> columna1; //lista que almacena los datos de la segunda columna de la tabla
